@@ -29,7 +29,7 @@ body {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    color: rgb(255, 255, 255);
+    color: white;
 }
 
 #PageHeader #Title {
@@ -69,7 +69,7 @@ body {
     display: inline-block;
     margin: auto;
     padding: 0.2rem 1rem 0;
-    color: rgb(255, 255, 255) !important;
+    color: white !important;
     cursor: pointer;
     text-decoration: none !important;
     user-select: none;
@@ -81,7 +81,7 @@ body {
     text-align: center;
     display: inline-block;
     margin: auto;
-    color: rgb(255, 255, 255) !important;
+    color: white !important;
     cursor: pointer;
     text-decoration: none !important;
     padding-top: 0.2rem;
@@ -109,7 +109,7 @@ body {
     height: 2.57rem;
     width: 2.57rem;
     border-radius: 100%;
-    background-color: rgb(255, 255, 255);
+    background-color: #fff;
     border: 0.17rem solid #7289DA;
     display: inline-block;
     margin: 0 0.3rem;
@@ -120,7 +120,7 @@ body {
     background-position: center;
 }
 
-#PageHeader #Discord #Brobow {
+#PageHeader #Discord #Brobow #AuthorLogo #Author #AuthorInfo {
     background-image: url('../img/brobow.png');
 }
 
@@ -154,43 +154,10 @@ body {
     list-style: none;
 }
 
-
 #PageMain #Downloads li:before {
     width: 0.5rem;
     content: "·";
     vertical-align: middle;
-    position: relative;
-    top: -0.05rem;
-    left: -0.4rem;
-    font-size: 0.8rem;
-}
-
-#PageMain #Downloads ly {
-    line-height: 1.3rem;
-    list-style: none;
-}
-
-
-#PageMain #Downloads ly:before {
-    width: 0.5rem;
-    content: "";
-    vertical-align: right;
-    position: relative;
-    top: -0.05rem;
-    left: -0.4rem;
-    font-size: 0.8rem;
-}
-
-#PageMain #Downloads uy {
-    line-height: 1.3rem;
-    list-style: none;
-}
-
-
-#PageMain #Downloads uy:before {
-    width: 0.5rem;
-    content: "";
-    vertical-align: right;
     position: relative;
     top: -0.05rem;
     left: -0.4rem;
@@ -222,9 +189,17 @@ body {
     line-height: 1rem;
 }
 
+#PageMain p {
+    margin: 0 0 1.6rem 0;
+    font-size: 0.85rem !important;
+    font-weight: normal;
+    line-height: 0.85rem;
+    color: #575757 !important;
+}
+
 #PageMain ol {
     font-size: 0.85rem !important;
-    color: #ffffff !important;
+    color: #575757 !important;
     margin: 0 0 1.6rem 0;
 }
 
@@ -234,7 +209,7 @@ body {
 
 #PageFooter {
     background-color: #161417;
-    color: rgb(0, 0, 0);
+    color: #fff;
     text-align: left;
     padding-top: 3.57rem;
     padding-bottom: 1.8rem;
@@ -301,20 +276,4 @@ body {
     #PageHeader  {
         height: 35rem;
     }
-}
-
-#PageMain p1 {
-    line-height: 1.3rem;
-    list-style: none;
-}
-
-
-#PageMain  p1:before {
-    width: 0.5rem;
-    content: ".";
-    vertical-align: right;
-    position: relative;
-    top: -0.05rem;
-    left: -0.4rem;
-    font-size: 0.8rem;
 }
