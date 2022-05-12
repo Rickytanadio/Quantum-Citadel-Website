@@ -120,7 +120,7 @@ body {
     background-position: center;
 }
 
-#PageHeader #Discord #Brobow #AuthorLogo #Author #AuthorInfo {
+#PageHeader #Discord #Brobow {
     background-image: url('../img/brobow.png');
 }
 
@@ -154,10 +154,43 @@ body {
     list-style: none;
 }
 
+
 #PageMain #Downloads li:before {
     width: 0.5rem;
     content: "·";
     vertical-align: middle;
+    position: relative;
+    top: -0.05rem;
+    left: -0.4rem;
+    font-size: 0.8rem;
+}
+
+#PageMain #Downloads ly {
+    line-height: 1.3rem;
+    list-style: none;
+}
+
+
+#PageMain #Downloads ly:before {
+    width: 0.5rem;
+    content: "";
+    vertical-align: right;
+    position: relative;
+    top: -0.05rem;
+    left: -0.4rem;
+    font-size: 0.8rem;
+}
+
+#PageMain #Downloads uy {
+    line-height: 1.3rem;
+    list-style: none;
+}
+
+
+#PageMain #Downloads uy:before {
+    width: 0.5rem;
+    content: "";
+    vertical-align: right;
     position: relative;
     top: -0.05rem;
     left: -0.4rem;
@@ -187,14 +220,6 @@ body {
     font-size: 1rem;
     font-weight: normal;
     line-height: 1rem;
-}
-
-#PageMain p {
-    margin: 0 0 1.6rem 0;
-    font-size: 0.85rem !important;
-    font-weight: normal;
-    line-height: 0.85rem;
-    color: #575757 !important;
 }
 
 #PageMain ol {
@@ -276,4 +301,20 @@ body {
     #PageHeader  {
         height: 35rem;
     }
+}
+
+#PageMain p1 {
+    line-height: 1.3rem;
+    list-style: none;
+}
+
+
+#PageMain  p1:before {
+    width: 0.5rem;
+    content: ".";
+    vertical-align: right;
+    position: relative;
+    top: -0.05rem;
+    left: -0.4rem;
+    font-size: 0.8rem;
 }
