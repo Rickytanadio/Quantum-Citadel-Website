@@ -124,6 +124,10 @@ body {
     background-image: url('../img/brobow.png');
 }
 
+#PageHeader #Discord #blob {
+    background-image: url('../img/unknownblob.jpeg');
+}
+
 #PageMain {
     text-align: left;
     margin: 0.3rem auto;
